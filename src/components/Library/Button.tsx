@@ -8,7 +8,7 @@ interface ButtonProps {
 const Button: React.FC<ButtonProps> = ({ children, primary = false }) => {
   
   const primaryStyling: string = 'text-[14px] font-base bg-green whitespace-nowrap px-[23px] py-[20.5px]';
-  const secondaryStyling: string = 'border-solid border-black border-2 text-xs p-2 whitespace-nowrap font-light';
+  const secondaryStyling: string = 'border-solid border-black border-2 text-[12px] px-[18px] py-[11px] whitespace-nowrap font-light';
 
   return (
     <button className={primary ? primaryStyling : secondaryStyling}>

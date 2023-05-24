@@ -24,16 +24,16 @@ const recipeMenuItems: string[] = [
   return (
     <div className="flex flex-row items-center">
       <ul className="flex list-none gap-x-16 whitespace-nowrap">
-        <li className="font-semibold text-xs hover:cursor-pointer hover:text-orange">
+        <li className="font-semibold text-[14px] hover:cursor-pointer hover:text-orange">
           <DropDownMenu label={`Recipe box`} options={recipeMenuItems} />
         </li>
-        <li className="font-semibold text-xs hover:cursor-pointer hover:text-orange">
+        <li className="font-semibold text-[14px] hover:cursor-pointer hover:text-orange">
           <DropDownMenu label={`Products`} options={productMenuItems} />
         </li>
-        <li className="hover:cursor-pointer hover:text-orange text-xs font-semibold">
+        <li className="hover:cursor-pointer hover:text-orange text-[14px] font-semibold">
           About us
         </li>
-        <li className="hover:cursor-pointer hover:text-orange text-xs font-semibold">
+        <li className="hover:cursor-pointer hover:text-orange text-[14px] font-semibold">
           Visit us
         </li>
       </ul>
