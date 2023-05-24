@@ -8,7 +8,7 @@ const NavBar = () => {
       <div className='flex justify-center w-2/6'>
         <NavLogo />
       </div>
-      <div className='w-4/6 flex flex-row justify-start '>
+      <div className='w-4/6 flex flex-row justify-between  pr-44'>
         <NavMenu />
         <NavCTA />
       </div>
