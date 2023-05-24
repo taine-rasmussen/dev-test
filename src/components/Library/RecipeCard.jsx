@@ -24,7 +24,7 @@ const RecipeCard = ({ recipe }) => {
               {price}
             </p>
             <div className='relative'>
-              <div className='absolute text-[12px] flex items-center rounded-full bg-orange h-[51px] w-[51px] -top-5 -right-5 text-base'>
+              <div className='absolute text-[12px] flex items-center rounded-full bg-orange h-[50px] w-[50px] -top-5 -right-5 text-base'>
                 <AiOutlineShoppingCart />
               </div>
             </div>
