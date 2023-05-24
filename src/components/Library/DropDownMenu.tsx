@@ -18,7 +18,7 @@ const [openMenu, setOpenMenu] = useState<boolean>(false);
   return (
     <Menu
       open={openMenu}
-      offset={36}
+      offset={41}
       handler={setOpenMenu}
       animate={{
         mount: { y: 0 },
