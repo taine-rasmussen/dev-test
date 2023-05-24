@@ -24,8 +24,8 @@ const DropDownMenu = ({ label, options }) => {
           onClick={() => { setOpenMenu(!openMenu) }}
           className={
             openMenu
-              ? 'text-orange flex items-center justify-center gap-2 hover:cursor-pointer text-sm'
-              : 'flex items-center justify-center gap-2 hover:cursor-pointer hover:text-orange text-sm'
+              ? 'text-orange flex items-center justify-center gap-2 hover:cursor-pointer'
+              : 'flex items-center justify-center gap-2'
           }
         >
           {label}

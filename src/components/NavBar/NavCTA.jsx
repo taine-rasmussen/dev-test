@@ -3,7 +3,7 @@ import Button from '../Library/Button'
 const NavCTA = () => {
   return (
     <div className='flex'>
-      <h1 className='font-semibold p-3 whitespace-nowrap hover:text-orange hover:cursor-pointer text-sm'>
+      <h1 className='font-semibold p-3 whitespace-nowrap hover:text-orange hover:cursor-pointer text-xs'>
         Log in
       </h1>
       <Button primary={false}>

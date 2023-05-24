@@ -22,20 +22,20 @@ const NavMenu = () => {
   return (
     <div className='flex flex-row items-center'>
       <ul className="flex list-none gap-x-16">
-        <li className="flex-none">
+        <li className='font-semibold text-xs hover:cursor-pointer hover:text-orange'>
           <DropDownMenu
             label={'Recipe box'}
             options={recipeMenuItems}
           />
         </li>
-        <li className="flex-none">
+        <li className='font-semibold text-xs hover:cursor-pointer hover:text-orange'>
           <DropDownMenu
             label={'Prodcuts'}
             options={productMenuItems}
           />
         </li>
-        <li className="flex-none hover:cursor-pointer hover:text-orange text-sm">About us</li>
-        <li className="flex-none hover:cursor-pointer hover:text-orange text-sm">Visit us</li>
+        <li className="hover:cursor-pointer hover:text-orange text-xs font-semibold">About us</li>
+        <li className="hover:cursor-pointer hover:text-orange text-xs font-semibold">Visit us</li>
       </ul>
     </div>
   )
