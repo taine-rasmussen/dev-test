@@ -1,8 +1,9 @@
-import NavLogo from './NavLogo'
-import NavMenu from './NavMenu'
-import NavCTA from './NavCTA'
+import React from 'react';
+import NavLogo from './NavLogo';
+import NavMenu from './NavMenu';
+import NavCTA from './NavCTA';
 
-const NavBar = () => {
+const NavBar: React.FC = () => {
   return (
     <div className='flex flex-row items-center h-[90px] w-full'>
       <div className='flex justify-center w-[35%]'>
@@ -13,7 +14,7 @@ const NavBar = () => {
         <NavCTA />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;
