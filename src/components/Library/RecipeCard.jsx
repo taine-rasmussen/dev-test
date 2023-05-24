@@ -25,7 +25,7 @@ const RecipeCard = ({ recipe }) => {
             <p className='text-dark-green text-[14px]'>
               {price}
             </p>
-            <div className='z-40 -mb-[20px]'>
+            <div className='z-40 -mb-[20px] mr-[3px]'>
               <AiOutlineShoppingCart />
             </div>
           </div>
