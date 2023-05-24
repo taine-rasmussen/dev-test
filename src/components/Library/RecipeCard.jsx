@@ -8,13 +8,16 @@ const RecipeCard = ({ recipe }) => {
     img
   } = recipe
 
-  const roundedStyling = 'rounded-full h-[110px] w-[110px] mb-4 z-40'
-  const standardStyling = 'h-[130px] mb-4 z-40'
+  const roundedStyling = 'rounded-full h-[110px] w-[110px] z-40'
+  const standardStyling = 'h-[130px] z-40 mt-2'
+
+  const roundedPositioning = 'w-[180px] h-[90px] shadow-lg shadow-grey pl-[25px] pr-[3px] pt-[2px] pb-[3px] mt-5 -ml-4'
+  const standardPositioning = 'w-[180px] h-[90px] shadow-lg shadow-grey pl-[25px] pr-[3px] pt-[px] pb-[3px] mt-9 -ml-12 mr-5'
 
   return (
     <div className='flex flex-row'>
       <img src={img} alt={title} className={isSquare ? roundedStyling : standardStyling} />
-      <div className='w-[180px] h-[90px] shadow-lg shadow-grey pl-[25px] pr-[3px] pt-[2px] pb-[3px]'>
+      <div className={isSquare ? roundedPositioning : standardPositioning}>
         <div className='flex flex-col gap-7 overflow-hidden'>
           <div className='font-light text-[12px]'>
             {title}
