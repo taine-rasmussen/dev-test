@@ -21,11 +21,11 @@ const RecipeCard = ({ recipe }) => {
           <div className='font-light text-[12px] mr-[16px]'>
             {title}
           </div>
-          <div className='flex flex-row justify-between items-center w-full px-[5px]'>
+          <div className='flex flex-row justify-between items-center w-full pr-[5px]'>
             <p className='text-dark-green text-[14px]'>
               {price}
             </p>
-            <div className='z-40 -mb-[20px]'>
+            <div className='z-40 -mb-[20px] mr-[3px]'>
               <AiOutlineShoppingCart />
             </div>
           </div>
