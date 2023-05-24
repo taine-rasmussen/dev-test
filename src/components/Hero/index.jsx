@@ -3,7 +3,7 @@ import herodish from '../../assets/herodish.png';
 
 const Hero = () => {
   return (
-    <div className="w-full h-[90%] flex items-center justify-center ">
+    <div className="flex items-center justify-center ">
       <div className="w-[35%] flex justify-center h-full z-40 ">
         <div className="flex items-start flex-col gap-[16px] w-1/3 -ml-[33px]">
           <p className="font-bold text-[50px] whitespace-nowrap overflow-x-visible -mb-[15px]">
@@ -17,7 +17,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="w-[65%] bg-light-green">
-        <img src={herodish} alt="dish" className="ml-[5%]" />
+        <img src={herodish} alt="dish" />
       </div>
     </div>
   );
