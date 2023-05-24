@@ -1,7 +1,7 @@
 const NavCTA = () => {
   return (
     <div>
-
+      CTA
     </div>
   )
 }
