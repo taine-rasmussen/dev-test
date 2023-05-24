@@ -39,7 +39,7 @@ const Footer = () => {
             <HiOutlineArrowRight className='hover:cursor-pointer' />
           </div>
         </div>
-        <div className='flex flex-row items-center justify-between'>
+        <div className='flex flex-row items-center justify-between gap-x-10'>
           {recipes.map(recipe => (<RecipeCard recipe={recipe} key={recipe.title} />))}
         </div>
       </div>
