@@ -1,4 +1,4 @@
-import DropDownMenu from '@/components/Library/DropDownMenu'
+import DropDownMenu from '../Library/DropDownMenu'
 
 const NavMenu = () => {
 
@@ -20,8 +20,23 @@ const NavMenu = () => {
   ]
 
   return (
-    <div>
-      menu
+    <div className='flex flex-row items-center'>
+      <ul className="flex list-none gap-x-16">
+        <li className="flex-none">
+          <DropDownMenu
+            label={'Recipe box'}
+            options={recipeMenuItems}
+          />
+        </li>
+        <li className="flex-none">
+          <DropDownMenu
+            label={'Prodcuts'}
+            options={productMenuItems}
+          />
+        </li>
+        <li className="flex-none hover:cursor-pointer hover:text-orange text-sm">About us</li>
+        <li className="flex-none hover:cursor-pointer hover:text-orange text-sm">Visit us</li>
+      </ul>
     </div>
   )
 }
