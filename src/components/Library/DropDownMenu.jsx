@@ -13,7 +13,7 @@ const DropDownMenu = ({ label, options }) => {
   return (
     <Menu
       open={openMenu}
-      offset={28}
+      offset={36}
       handler={setOpenMenu}
       animate={{
         mount: { y: 0 },
