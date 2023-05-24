@@ -13,7 +13,7 @@ const DropDownMenu = ({ label, options }) => {
   return (
     <Menu
       open={openMenu}
-      offset={28}
+      offset={36}
       handler={setOpenMenu}
       animate={{
         mount: { y: 0 },
@@ -39,7 +39,7 @@ const DropDownMenu = ({ label, options }) => {
         {options.map(item => (
           <MenuItem
             key={item}
-            className='flex mr-20 p-1 hover:text-orange'
+            className='flex mr-20 p-1 hover:text-orange text-xs'
           >
             {item}
           </MenuItem>
