@@ -1,5 +1,4 @@
 import { AiOutlineShoppingCart } from 'react-icons/ai';
-import { useMemo } from 'react'
 
 const RecipeCard = ({ recipe }) => {
   const {
@@ -15,7 +14,7 @@ const RecipeCard = ({ recipe }) => {
   return (
     <div className='flex flex-row'>
       <img src={img} alt={title} className={isSquare ? roundedStyling : standardStyling} />
-      <div className='w-[180px] h-[90px] shadow-lg shadow-grey pl-[25px] pr-[3px] pt-[15px] pb-[3px]'>
+      <div className='w-[180px] h-[90px] shadow-lg shadow-grey pl-[25px] pr-[3px] pt-[2px] pb-[3px]'>
         <div className='flex flex-col gap-7 overflow-hidden'>
           <div className='font-light text-[12px]'>
             {title}
@@ -25,7 +24,7 @@ const RecipeCard = ({ recipe }) => {
               {price}
             </p>
             <div className='relative'>
-              <div className='absolute text-[12px] flex items-center rounded-full bg-orange h-20 w-20 -top-10 -right-8 text-base'>
+              <div className='absolute text-[12px] flex items-center rounded-full bg-orange h-[51px] w-[51px] -top-5 -right-5 text-base'>
                 <AiOutlineShoppingCart />
               </div>
             </div>
