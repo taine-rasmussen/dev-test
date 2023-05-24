@@ -1,6 +1,7 @@
+import React from 'react';
 import Button from '../Library/Button';
 
-const NavCTA = () => {
+const NavCTA: React.FC = () => {
   return (
     <div className="flex gap-x-6">
       <h1 className="font-semibold p-3 whitespace-nowrap hover:text-orange hover:cursor-pointer text-xs">

@@ -1,22 +1,25 @@
+import React from 'react';
 import DropDownMenu from '../Library/DropDownMenu';
 
-const NavMenu = () => {
-  const productMenuItems = [
-    `Fruit`,
-    `Vegetables`,
-    `Eggs`,
-    `Milk`,
-    `Meat`,
-    `Fresh drinks`,
-  ];
-  const recipeMenuItems = [
-    `Item 1`,
-    `Item 2`,
-    `Item 3`,
-    `Item 4`,
-    `Item 5`,
-    `Item 6`,
-  ];
+const NavMenu: React.FC = () => {
+const productMenuItems: string[] = [
+  `Fruit`,
+  `Vegetables`,
+  `Eggs`,
+  `Milk`,
+  `Meat`,
+  `Fresh drinks`,
+];
+
+const recipeMenuItems: string[] = [
+  `Item 1`,
+  `Item 2`,
+  `Item 3`,
+  `Item 4`,
+  `Item 5`,
+  `Item 6`,
+];
+
 
   return (
     <div className="flex flex-row items-center">
@@ -25,7 +28,7 @@ const NavMenu = () => {
           <DropDownMenu label={`Recipe box`} options={recipeMenuItems} />
         </li>
         <li className="font-semibold text-xs hover:cursor-pointer hover:text-orange">
-          <DropDownMenu label={`Prodcuts`} options={productMenuItems} />
+          <DropDownMenu label={`Products`} options={productMenuItems} />
         </li>
         <li className="hover:cursor-pointer hover:text-orange text-xs font-semibold">
           About us

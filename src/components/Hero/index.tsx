@@ -1,7 +1,8 @@
+import React from 'react';
 import Button from '../Library/Button';
 import herodish from '../../assets/herodish.png';
 
-const Hero = () => {
+const Hero: React.FC = () => {
   return (
     <div className="flex items-center justify-center ">
       <div className="w-[35%] flex justify-center h-full z-40 ">
