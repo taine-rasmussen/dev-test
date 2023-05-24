@@ -1,5 +1,5 @@
 const Button = ({ children, primary }) => {
-  const primaryStyling = 'p-[19px] text-[16px] font-semibold bg-green whitespace-nowrap px-[35px]'
+  const primaryStyling = 'text-[14px] font-base bg-green whitespace-nowrap px-[23px] py-[20.5px]'
   const secondaryStyling = 'border-solid border-black border-2 text-xs p-2 whitespace-nowrap font-light'
 
   return (
