@@ -5,10 +5,10 @@ import NavCTA from './NavCTA'
 const NavBar = () => {
   return (
     <div className='flex flex-row items-center h-[90px] w-full'>
-      <div className='flex justify-center w-2/6'>
+      <div className='flex justify-center w-[35%]'>
         <NavLogo />
       </div>
-      <div className='w-4/6 flex flex-row justify-between  pr-44'>
+      <div className='w-[65%] flex flex-row justify-between pr-44'>
         <NavMenu />
         <NavCTA />
       </div>
