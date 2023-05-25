@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
             Consider this a<br />
             taste intervention.
           </p>
-          <Button primary={true}>LEARN MORE</Button>
+          <Button primary>LEARN MORE</Button>
         </div>
       </div>
       <div className="w-[65%] bg-light-green">

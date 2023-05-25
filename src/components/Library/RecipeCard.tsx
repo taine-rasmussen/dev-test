@@ -17,8 +17,8 @@ const RecipeCard: React.FC<{ recipe: Recipe }> = ({ recipe }) => {
 
   const roundedStyling: string = 'rounded-full h-[110px] w-[110px] z-40 mt-2';
   const standardStyling: string = 'h-[130px] z-40 mt-2';
-  const roundedPositioning: string = 'w-[180px] h-[100px] shadow-lg shadow-grey pl-[25px] pr-[5px] pt-[12px]  mt-5 -ml-4';
-  const standardPositioning: string = 'w-[180px] h-[100px] shadow-lg shadow-grey pl-[25px] pr-[5px] pt-[12px]  mt-8 -ml-12 mr-5';
+  const roundedPositioning: string = 'w-[180px] h-[100px] min-h-max shadow-lg shadow-grey pl-[25px] pr-[5px] pt-[12px]  mt-5 -ml-4';
+  const standardPositioning: string = 'w-[180px] h-[100px] min-h-max shadow-lg shadow-grey pl-[25px] pr-[5px] pt-[12px]  mt-8 -ml-12 mr-5';
 
   return (
     <div className='flex flex-row'>

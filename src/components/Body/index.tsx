@@ -19,7 +19,7 @@ const Body: React.FC = () => {
             ingredients, and step-by-step recipes directly to your door <br />
             ready for you to cook
           </p>
-          <Button primary={true}>
+          <Button primary>
             SHOP NOW
           </Button>
         </div>
