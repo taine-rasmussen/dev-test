@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button as MaterialButton } from "@material-tailwind/react";
 
 interface ButtonProps {
   children: string;
@@ -11,9 +12,12 @@ const Button: React.FC<ButtonProps> = ({ children, primary = false }) => {
   const secondaryStyling: string = 'border-solid border-black border-2 text-[12px] px-[18px] py-[11px] whitespace-nowrap font-light';
 
   return (
-    <button className={primary ? primaryStyling : secondaryStyling}>
+    <MaterialButton 
+      className={primary ? primaryStyling : secondaryStyling} 
+      ripple={true}
+    >
       {children}
-    </button>
+    </MaterialButton>
   );
 };
 
